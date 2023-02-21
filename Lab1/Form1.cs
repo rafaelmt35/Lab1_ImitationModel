@@ -18,17 +18,10 @@ namespace Lab1
             InitializeComponent();
         }
 
-        double dt = 0.2; //time step// delta t
+        double dt = 0.01; //time step// delta t
         double x, y, v0, t, sina, cosa, m, S, k, vx, vy, vend;
 
-        private void btClear_Click(object sender, EventArgs e)
-        {
-         /*   chart1.Series.Clear();
-            for(int i = 1; i <= series; i++)
-            {
-                chart1.Series.RemoveAt(i);
-            }  */ 
-        }
+       
 
         int series = 1;
 
@@ -52,7 +45,7 @@ namespace Lab1
         const double rho = 1.29;    //Rho 
        
         List<double> arrayY;
-        Color[] listColors = { Color.Green, Color.Red, Color.Blue, Color.Orange, Color.HotPink, Color.Brown };
+        
 
 
         private void resetButton_Click(object sender, EventArgs e)

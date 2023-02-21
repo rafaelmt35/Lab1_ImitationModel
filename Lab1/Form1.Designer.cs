@@ -54,7 +54,6 @@
             this.resultSpeedEndPoint = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.resetButton = new System.Windows.Forms.Button();
-            this.btClear = new System.Windows.Forms.Button();
             this.btNew = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numHeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numAngle)).BeginInit();
@@ -288,19 +287,9 @@
             this.resetButton.UseVisualStyleBackColor = true;
             this.resetButton.Click += new System.EventHandler(this.resetButton_Click);
             // 
-            // btClear
-            // 
-            this.btClear.Location = new System.Drawing.Point(942, 22);
-            this.btClear.Name = "btClear";
-            this.btClear.Size = new System.Drawing.Size(95, 60);
-            this.btClear.TabIndex = 23;
-            this.btClear.Text = "CLEAR";
-            this.btClear.UseVisualStyleBackColor = true;
-            this.btClear.Click += new System.EventHandler(this.btClear_Click);
-            // 
             // btNew
             // 
-            this.btNew.Location = new System.Drawing.Point(942, 97);
+            this.btNew.Location = new System.Drawing.Point(941, 50);
             this.btNew.Name = "btNew";
             this.btNew.Size = new System.Drawing.Size(95, 32);
             this.btNew.TabIndex = 24;
@@ -314,7 +303,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1349, 642);
             this.Controls.Add(this.btNew);
-            this.Controls.Add(this.btClear);
             this.Controls.Add(this.resetButton);
             this.Controls.Add(this.resultSpeedEndPoint);
             this.Controls.Add(this.label11);
@@ -373,7 +361,6 @@
         private System.Windows.Forms.Label resultSpeedEndPoint;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button resetButton;
-        private System.Windows.Forms.Button btClear;
         private System.Windows.Forms.Button btNew;
     }
 }
